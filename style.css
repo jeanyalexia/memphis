@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #380049;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  }
+  
+.intro {
+    width: 100vw;
+    height: 80vh;
+    background-image: url("memphis.jpg");
+    background-position: top;
+    background-attachment: fixed;
+  background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro__align__title {
+	font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: 2px;
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+	margin-left: -25%;
+    margin-right:-25%;
+    width: 50%;
+	text-shadow: 3px 3px #ff5e03;
+}
+
+.texto {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.texto2 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.footer {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  background: white;
+  box-sizing: border-box;
+}
